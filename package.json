@@ -1,12 +1,17 @@
 {
   "name": "backend01",
   "version": "1.0.0",
-  "description": "backend for my learning",
-  "license": "ISC",
-  "author": "Morrish Mahato",
-  "type": "commonjs",
+  "description": "Backend for my learning",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Morrish Mahato",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.0"
   }
 }
